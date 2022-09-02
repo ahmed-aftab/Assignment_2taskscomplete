@@ -3,6 +3,7 @@ C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\targets
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task2\acceptanceCriteria\IMDbLinkCheckTestSuite.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\targets\ResultPage.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\targets\GooglePage.java
+C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task4\steps\DataSavingSteps.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\hooks\RemembranceHooks.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task1\acceptanceCriteria\OpenGoogleTestSuite.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\targets\CastCrewPage.java
@@ -10,5 +11,6 @@ C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task1\s
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\hooks\SoftAssertionsHook.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\RunAllTest.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task3\steps\castCrewPageSteps.java
+C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task4\acceptanceCriteria\DataSavingTestSuite.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\hooks\SettingStage.java
 C:\Users\emumba\Desktop\TodoMVC_Project\TAU\src\test\java\com\assignment\task2\steps\iMDbLinkCheckSteps.java

@@ -7,7 +7,9 @@ com\assignment\RunAllTest.class
 com\assignment\task1\acceptanceCriteria\OpenGoogleTestSuite.class
 com\assignment\targets\GooglePage.class
 com\assignment\hooks\SettingStage.class
+com\assignment\task4\steps\DataSavingSteps.class
 com\assignment\hooks\SoftAssertionsHook.class
+com\assignment\task4\acceptanceCriteria\DataSavingTestSuite.class
 com\assignment\task2\acceptanceCriteria\IMDbLinkCheckTestSuite.class
 com\assignment\hooks\RemembranceHooks.class
 com\assignment\task2\steps\iMDbLinkCheckSteps.class

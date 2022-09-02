@@ -1,7 +1,4 @@
 package com.assignment.task4.steps;
-
-import com.assignment.task2.steps.iMDbLinkCheckSteps;
-import com.opencsv.CSVWriter;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -9,14 +6,9 @@ import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.questions.WebElementQuestion;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
-import org.testng.Assert;
-
 import java.io.*;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import static com.assignment.targets.CastCrewPage.*;
@@ -46,10 +38,10 @@ public class DataSavingSteps {
                 Text.of(EPISODES_TIME).asAList()
         );
 
-        for (String actors : episodesList)
-            System.out.println(actors.length());
-        System.out.println(actorsList.size());
-        System.out.println(episodesList.get(1).substring(0,2));
+//        for (String actors : episodesList)
+//            System.out.println(actors.length());
+//        System.out.println(actorsList.size());
+//        System.out.println(episodesList.get(1).substring(0,2));
 
         String outputFilePath = "C:\\Users\\emumba\\Desktop\\TodoMVC_Project\\TAU\\src\\test\\resources\\Data.csv";
 
@@ -67,40 +59,8 @@ public class DataSavingSteps {
                 } else if (episodesList.get(i).length()==15) {
                     csv.printRecord(actorsList.get(i), casteList.get(i), episodesList.get(i).substring(0, 2),episodesList.get(i).substring(10, 15));
                 }
-
-
             }
         }
-
-//        String[] array = actorsList.toArray(new String[]{});
-//        System.out.print(actorsList.get(4));
-
-//        String csv = "C:\\Users\\emumba\\Desktop\\TodoMVC_Project\\TAU\\src\\test\\resources\\Data.csv";
-//        CSVWriter writer = null;
-//        try {
-//            writer = new CSVWriter(new FileWriter(csv));
-//        } catch (IOException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        }
-////        for(String: csvInput){
-////            writer.writeNext(each);
-////        }
-//        for (int i = 0; i < 97; i++) {
-//            writer.writeNext(array.get(x));
-//        }
-//        writer.close();
-        //end of writeTOCSV
-
-//        CSVWriter file;
-//        file=new CSVWriter(new FileWriter(new File("src/test/resources/Data.csv")));
-//        file.get
-//        final Path path = Paths.get(ClassLoader.getSystemResource(outputFilePath).toURI());
-//        return Files.lines(path).skip(1L).count(); // skip(1L) to ignore the titles
-
-
-
-
     }
 
     @And("Check check that total caste is {string}")
@@ -119,7 +79,6 @@ public class DataSavingSteps {
 
             int result = count.getLineNumber()-1;// +1 because line index starts at 0
             System.out.println("no of lines "+result);
-            Assert.assertEquals(Integer.toString(result),arg0,"rating is not equal");
         }
     }
 }
