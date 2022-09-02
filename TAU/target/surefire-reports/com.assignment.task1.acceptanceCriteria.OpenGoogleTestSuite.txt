@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.assignment.task1.acceptanceCriteria.OpenGoogleTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.208 s - in com.assignment.task1.acceptanceCriteria.OpenGoogleTestSuite
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.6 s - in com.assignment.task1.acceptanceCriteria.OpenGoogleTestSuite

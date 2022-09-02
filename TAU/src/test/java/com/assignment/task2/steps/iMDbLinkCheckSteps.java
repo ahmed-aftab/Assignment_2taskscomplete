@@ -25,6 +25,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isPres
 
 
 public class iMDbLinkCheckSteps {
+    public static String fig;
     @Given("Ali is on {string}")
     public void aliIsOn(String url){
 //        theActorInTheSpotlight().attemptsTo(new OpenUrl(url));
@@ -46,6 +47,11 @@ public class iMDbLinkCheckSteps {
         );
 //        String rating=  theActorInTheSpotlight().asksFor(TextContent.of("#introduction"));
         String rating = IMDB_RATING.resolveFor(theActorInTheSpotlight()).getText();
+        fig=rating;
+        theActorInTheSpotlight().remember("rating1",rating);
+        String rate=theActorInTheSpotlight().recall("rating1");
+
         System.out.println("The rating of movie is "+rating);
+        System.out.println("The rating of movie is "+rate);
     }
 }

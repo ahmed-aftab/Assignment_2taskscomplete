@@ -5,3 +5,4 @@ Feature: Check IMDb link is present
     Given Ali is on "https://www.google.com/"
     When he adds a "After Life" in search bar
     Then the IMDb link is visible on the page
+
